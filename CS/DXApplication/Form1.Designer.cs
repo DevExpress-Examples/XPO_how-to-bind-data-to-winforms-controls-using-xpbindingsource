@@ -73,25 +73,26 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(12, 11);
+            this.labelControl1.Location = new System.Drawing.Point(14, 14);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(63, 13);
+            this.labelControl1.Size = new System.Drawing.Size(75, 16);
             this.labelControl1.TabIndex = 1;
             this.labelControl1.Text = "Data Source:";
             // 
             // DataSourceTypeComboBox
             // 
-            this.DataSourceTypeComboBox.Location = new System.Drawing.Point(81, 8);
+            this.DataSourceTypeComboBox.Location = new System.Drawing.Point(94, 10);
+            this.DataSourceTypeComboBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.DataSourceTypeComboBox.Name = "DataSourceTypeComboBox";
             this.DataSourceTypeComboBox.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.DataSourceTypeComboBox.Properties.Items.AddRange(new object[] {
             "XPCollection",
-            "XPServerCollectionSource",
             "List of Objects",
             "Single Object"});
             this.DataSourceTypeComboBox.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.DataSourceTypeComboBox.Size = new System.Drawing.Size(208, 20);
+            this.DataSourceTypeComboBox.Size = new System.Drawing.Size(243, 22);
             this.DataSourceTypeComboBox.TabIndex = 2;
             this.DataSourceTypeComboBox.SelectedIndexChanged += new System.EventHandler(this.DataSourceTypeComboBox_SelectedIndexChanged);
             // 
@@ -99,10 +100,12 @@
             // 
             this.gridControl1.DataSource = this.ProductListSource;
             this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl1.Location = new System.Drawing.Point(0, 35);
+            this.gridControl1.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.gridControl1.Location = new System.Drawing.Point(0, 43);
             this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(644, 412);
+            this.gridControl1.Size = new System.Drawing.Size(752, 507);
             this.gridControl1.TabIndex = 3;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -122,51 +125,64 @@
             this.colSupplierName,
             this.colCategoryName,
             this.colDiscontinued});
+            this.gridView1.DetailHeight = 431;
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             // 
             // colProductID
             // 
             this.colProductID.FieldName = "ProductID";
+            this.colProductID.MinWidth = 23;
             this.colProductID.Name = "colProductID";
             this.colProductID.OptionsColumn.ReadOnly = true;
             this.colProductID.Visible = true;
             this.colProductID.VisibleIndex = 0;
+            this.colProductID.Width = 87;
             // 
             // colProductName
             // 
             this.colProductName.FieldName = "ProductName";
+            this.colProductName.MinWidth = 23;
             this.colProductName.Name = "colProductName";
             this.colProductName.Visible = true;
             this.colProductName.VisibleIndex = 1;
+            this.colProductName.Width = 87;
             // 
             // colUnitPrice
             // 
             this.colUnitPrice.FieldName = "UnitPrice";
+            this.colUnitPrice.MinWidth = 23;
             this.colUnitPrice.Name = "colUnitPrice";
             this.colUnitPrice.Visible = true;
             this.colUnitPrice.VisibleIndex = 2;
+            this.colUnitPrice.Width = 87;
             // 
             // colSupplierName
             // 
             this.colSupplierName.FieldName = "SupplierID.CompanyName";
+            this.colSupplierName.MinWidth = 23;
             this.colSupplierName.Name = "colSupplierName";
             this.colSupplierName.Visible = true;
             this.colSupplierName.VisibleIndex = 3;
+            this.colSupplierName.Width = 87;
             // 
             // colCategoryName
             // 
             this.colCategoryName.FieldName = "CategoryID.CategoryName";
+            this.colCategoryName.MinWidth = 23;
             this.colCategoryName.Name = "colCategoryName";
             this.colCategoryName.Visible = true;
             this.colCategoryName.VisibleIndex = 4;
+            this.colCategoryName.Width = 87;
             // 
             // colDiscontinued
             // 
             this.colDiscontinued.FieldName = "Discontinued";
+            this.colDiscontinued.MinWidth = 23;
             this.colDiscontinued.Name = "colDiscontinued";
             this.colDiscontinued.Visible = true;
             this.colDiscontinued.VisibleIndex = 5;
+            this.colDiscontinued.Width = 87;
             // 
             // panelControl1
             // 
@@ -175,15 +191,17 @@
             this.panelControl1.Controls.Add(this.labelControl1);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
+            this.panelControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(844, 35);
+            this.panelControl1.Size = new System.Drawing.Size(985, 43);
             this.panelControl1.TabIndex = 4;
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(295, 5);
+            this.simpleButton1.Location = new System.Drawing.Point(344, 6);
+            this.simpleButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(142, 23);
+            this.simpleButton1.Size = new System.Drawing.Size(166, 28);
             this.simpleButton1.TabIndex = 3;
             this.simpleButton1.Text = "Re-create UnitOfWork";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
@@ -200,30 +218,33 @@
             this.panelControl2.Controls.Add(this.labelControl3);
             this.panelControl2.Controls.Add(this.labelControl2);
             this.panelControl2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelControl2.Location = new System.Drawing.Point(644, 35);
+            this.panelControl2.Location = new System.Drawing.Point(752, 43);
+            this.panelControl2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(200, 412);
+            this.panelControl2.Size = new System.Drawing.Size(233, 507);
             this.panelControl2.TabIndex = 5;
             // 
             // checkEdit1
             // 
             this.checkEdit1.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.ProductListSource, "Discontinued", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.checkEdit1.Location = new System.Drawing.Point(9, 186);
+            this.checkEdit1.Location = new System.Drawing.Point(10, 229);
+            this.checkEdit1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkEdit1.Name = "checkEdit1";
             this.checkEdit1.Properties.Caption = "Discontinued";
-            this.checkEdit1.Size = new System.Drawing.Size(182, 19);
+            this.checkEdit1.Size = new System.Drawing.Size(212, 24);
             this.checkEdit1.TabIndex = 8;
             // 
             // lookUpEdit2
             // 
             this.lookUpEdit2.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.ProductListSource, "SupplierID", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.lookUpEdit2.Location = new System.Drawing.Point(9, 160);
+            this.lookUpEdit2.Location = new System.Drawing.Point(10, 197);
+            this.lookUpEdit2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lookUpEdit2.Name = "lookUpEdit2";
             this.lookUpEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.lookUpEdit2.Properties.DataSource = this.SupplierListSource;
             this.lookUpEdit2.Properties.DisplayMember = "CompanyName";
-            this.lookUpEdit2.Size = new System.Drawing.Size(182, 20);
+            this.lookUpEdit2.Size = new System.Drawing.Size(212, 22);
             this.lookUpEdit2.TabIndex = 7;
             // 
             // SupplierListSource
@@ -234,13 +255,14 @@
             // lookUpEdit1
             // 
             this.lookUpEdit1.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.ProductListSource, "CategoryID", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.lookUpEdit1.Location = new System.Drawing.Point(9, 115);
+            this.lookUpEdit1.Location = new System.Drawing.Point(10, 142);
+            this.lookUpEdit1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lookUpEdit1.Name = "lookUpEdit1";
             this.lookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.lookUpEdit1.Properties.DataSource = this.CategoryListSource;
             this.lookUpEdit1.Properties.DisplayMember = "CategoryName";
-            this.lookUpEdit1.Size = new System.Drawing.Size(182, 20);
+            this.lookUpEdit1.Size = new System.Drawing.Size(212, 22);
             this.lookUpEdit1.TabIndex = 6;
             // 
             // CategoryListSource
@@ -256,62 +278,69 @@
             0,
             0,
             0});
-            this.spinEdit1.Location = new System.Drawing.Point(9, 70);
+            this.spinEdit1.Location = new System.Drawing.Point(10, 86);
+            this.spinEdit1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.spinEdit1.Name = "spinEdit1";
             this.spinEdit1.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.True;
             this.spinEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit1.Size = new System.Drawing.Size(182, 20);
+            this.spinEdit1.Size = new System.Drawing.Size(212, 24);
             this.spinEdit1.TabIndex = 5;
             // 
             // textEdit1
             // 
             this.textEdit1.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.ProductListSource, "ProductName", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.textEdit1.Location = new System.Drawing.Point(9, 25);
+            this.textEdit1.Location = new System.Drawing.Point(10, 31);
+            this.textEdit1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(182, 20);
+            this.textEdit1.Size = new System.Drawing.Size(212, 22);
             this.textEdit1.TabIndex = 4;
             // 
             // labelControl5
             // 
-            this.labelControl5.Location = new System.Drawing.Point(9, 141);
+            this.labelControl5.Location = new System.Drawing.Point(10, 174);
+            this.labelControl5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(42, 13);
+            this.labelControl5.Size = new System.Drawing.Size(52, 16);
             this.labelControl5.TabIndex = 3;
             this.labelControl5.Text = "Supplier:";
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(9, 96);
+            this.labelControl4.Location = new System.Drawing.Point(10, 118);
+            this.labelControl4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(49, 13);
+            this.labelControl4.Size = new System.Drawing.Size(56, 16);
             this.labelControl4.TabIndex = 2;
             this.labelControl4.Text = "Category:";
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(9, 51);
+            this.labelControl3.Location = new System.Drawing.Point(10, 63);
+            this.labelControl3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(49, 13);
+            this.labelControl3.Size = new System.Drawing.Size(59, 16);
             this.labelControl3.TabIndex = 1;
             this.labelControl3.Text = "Unit Price:";
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(9, 6);
+            this.labelControl2.Location = new System.Drawing.Point(10, 7);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(71, 13);
+            this.labelControl2.Size = new System.Drawing.Size(85, 16);
             this.labelControl2.TabIndex = 0;
             this.labelControl2.Text = "Product Name:";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(844, 447);
+            this.ClientSize = new System.Drawing.Size(985, 550);
             this.Controls.Add(this.gridControl1);
             this.Controls.Add(this.panelControl2);
             this.Controls.Add(this.panelControl1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.DataSourceTypeComboBox.Properties)).EndInit();

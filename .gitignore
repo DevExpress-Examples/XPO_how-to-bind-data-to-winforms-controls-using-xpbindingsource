@@ -305,4 +305,4 @@ TesterMetadata.xml
 *.licx
 
 # Backup files
-.bak
+*.bak

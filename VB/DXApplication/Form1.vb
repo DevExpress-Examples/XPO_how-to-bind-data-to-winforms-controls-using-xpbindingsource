@@ -47,12 +47,7 @@ Namespace DXApplication
 			Select Case dataSourceType
 				Case "XPCollection"
 					ProductListSource.DataSource = New XPCollection(UnitOfWork, GetType(Products))
-				Case "XPServerCollectionSource"
-					Dim ds As New XPServerCollectionSource(UnitOfWork, GetType(Products))
-					ds.AllowEdit = True
-					ds.TrackChanges = True
-					ProductListSource.DataSource = ds
-				Case "List of Objects"
+                Case "List of Objects"
                     ProductListSource.DataSource = UnitOfWork.Query(Of Products)().ToList()
                     ProductListSource.ObjectClassInfo = UnitOfWork.GetClassInfo(Of Products)()
                 Case "Single Object"
