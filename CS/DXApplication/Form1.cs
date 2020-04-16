@@ -58,12 +58,6 @@ namespace DXApplication
                 case "XPCollection":
                     ProductListSource.DataSource = new XPCollection(UnitOfWork, typeof(Products));
                     break;
-                case "XPServerCollectionSource":
-                    XPServerCollectionSource ds = new XPServerCollectionSource(UnitOfWork, typeof(Products));
-                    ds.AllowEdit = true;
-                    ds.TrackChanges = true;
-                    ProductListSource.DataSource = ds;
-                    break;
                 case "List of Objects":
                     ProductListSource.DataSource = UnitOfWork.Query<Products>().ToList();
                     ProductListSource.ObjectClassInfo = UnitOfWork.GetClassInfo<Products>();
