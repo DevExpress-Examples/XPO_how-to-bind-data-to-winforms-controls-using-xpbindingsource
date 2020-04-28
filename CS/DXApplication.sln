@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXApplication", "DXApplication\DXApplication.csproj", "{283C00B6-1470-48DE-AD78-374B892F9155}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DXApplication_NetCore", "DXApplication_NetCore\DXApplication_NetCore.csproj", "{CA52E542-0ABF-482B-B4BF-090CA47433B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{283C00B6-1470-48DE-AD78-374B892F9155}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{283C00B6-1470-48DE-AD78-374B892F9155}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{283C00B6-1470-48DE-AD78-374B892F9155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA52E542-0ABF-482B-B4BF-090CA47433B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA52E542-0ABF-482B-B4BF-090CA47433B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA52E542-0ABF-482B-B4BF-090CA47433B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA52E542-0ABF-482B-B4BF-090CA47433B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
