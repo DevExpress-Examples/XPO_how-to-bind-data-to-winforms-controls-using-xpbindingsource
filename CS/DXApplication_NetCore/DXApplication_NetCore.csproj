@@ -25,6 +25,6 @@
     <None Include="..\DXApplication\Properties\Settings.settings" Link="Settings.settings" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.8-ctp" />
+    <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.9-ctp" />
   </ItemGroup>
 </Project>
