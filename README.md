@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-XPO WinForms - How to Bind Data to Controls Using XPBindingSource
+# XPO WinForms - How to Bind Data to Controls Using XPBindingSource
 
 This example demonstrates how to use [XPBindingSource](https://docs.devexpress.com/XPO/DevExpress.Xpo.XPBindingSource) to bind your data source to WinForms controls.
 
