@@ -1,7 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
   <ItemGroup>
@@ -25,6 +26,24 @@
     <None Include="..\DXApplication\Properties\Settings.settings" Link="Settings.settings" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.13-ctp" />
+    <PackageReference Include="DevExpress.Win.BonusSkins" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Win.Charts" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Win.Diagram" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Win.Dialogs" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Win.Gantt" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Win.Gauges" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Win.Map" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Win.PdfViewer" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Win.RichEdit" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Win.Scheduler" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Win.SpellChecker" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Win.Spreadsheet" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Win.TreeMap" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.DataAccess.UI" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Utils" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Utils.UI" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Scaffolding.Core" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Scaffolding.EFCore" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Win" Version="24.2.1-alpha-24207" />
   </ItemGroup>
 </Project>
