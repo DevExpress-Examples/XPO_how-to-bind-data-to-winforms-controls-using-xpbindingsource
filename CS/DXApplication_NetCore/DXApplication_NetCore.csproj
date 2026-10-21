@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <TargetFramework>net10.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
   <ItemGroup>
@@ -26,24 +26,24 @@
     <None Include="..\DXApplication\Properties\Settings.settings" Link="Settings.settings" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Win.BonusSkins" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Win.Charts" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Win.Diagram" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Win.Dialogs" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Win.Gantt" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Win.Gauges" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Win.Map" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Win.PdfViewer" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Win.RichEdit" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Win.Scheduler" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Win.SpellChecker" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Win.Spreadsheet" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Win.TreeMap" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.DataAccess.UI" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Utils" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Utils.UI" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Scaffolding.Core" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Scaffolding.EFCore" Version="24.2.1-alpha-24207" />
-    <PackageReference Include="DevExpress.Win" Version="24.2.1-alpha-24207" />
+    <PackageReference Include="DevExpress.Win.BonusSkins" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Win.Charts" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Win.Diagram" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Win.Dialogs" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Win.Gantt" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Win.Gauges" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Win.Map" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Win.PdfViewer" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Win.RichEdit" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Win.Scheduler" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Win.SpellChecker" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Win.Spreadsheet" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Win.TreeMap" Version="26.1.5" />
+    <PackageReference Include="DevExpress.DataAccess.UI" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Utils" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Utils.UI" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Scaffolding.Core" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Scaffolding.EFCore" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Win" Version="26.1.5" />
   </ItemGroup>
 </Project>
